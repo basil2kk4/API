@@ -7,6 +7,7 @@ module.exports = (data, type) => {
     //console.log(more + `[ ${type} ] -> ` + data);
   console.log(color_one(`[ ${type} ] -> `) + color_two(data));
 }
+//
 module.exports.banner = (data) => {
 	const rdcl = ['blue', 'yellow', 'cyan','green', 'red', 'magenta', 'yellowBright', 'blueBright', 'magentaBright']
 	const color = chalk[rdcl[Math.floor(Math.random() * rdcl.length)]]
